@@ -41,8 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoruvkaMST.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Graph.cs" />
+    <Compile Include="GraphGenerator.cs" />
+    <Compile Include="disjoinedSet.cs" />
+    <Compile Include="KruskalMST.cs" />
+    <Compile Include="IMST.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MinPQueue.cs" />
+    <Compile Include="RedBlackTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

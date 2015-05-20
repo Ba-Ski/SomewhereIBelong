@@ -1,1 +1,6 @@
 C:\Users\P\Dropbox\IT\Algorithms\SomewhereIBelong\SomewhereIBelong\bin\Debug\SomewhereIBelong.exe.config
+C:\Users\P\Dropbox\IT\Algorithms\SomewhereIBelong\SomewhereIBelong\obj\Debug\SomewhereIBelong.csprojResolveAssemblyReference.cache
+C:\Users\P\Dropbox\IT\Algorithms\SomewhereIBelong\SomewhereIBelong\bin\Debug\SomewhereIBelong.exe
+C:\Users\P\Dropbox\IT\Algorithms\SomewhereIBelong\SomewhereIBelong\bin\Debug\SomewhereIBelong.pdb
+C:\Users\P\Dropbox\IT\Algorithms\SomewhereIBelong\SomewhereIBelong\obj\Debug\SomewhereIBelong.exe
+C:\Users\P\Dropbox\IT\Algorithms\SomewhereIBelong\SomewhereIBelong\obj\Debug\SomewhereIBelong.pdb
