@@ -44,8 +44,8 @@
     <Compile Include="BoruvkaMST.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Graph.cs" />
-    <Compile Include="GraphGenerator.cs" />
     <Compile Include="disjoinedSet.cs" />
+    <Compile Include="GraphGenerator.cs" />
     <Compile Include="KruskalMST.cs" />
     <Compile Include="IMST.cs" />
     <Compile Include="Program.cs" />
