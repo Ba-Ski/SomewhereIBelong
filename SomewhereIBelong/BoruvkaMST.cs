@@ -46,7 +46,7 @@ namespace SomewhereIBelong
 						{
 							_mst.Add(e);
 							weight+=e.weight;
-                            dsf.union(v, w);
+							dsf.union(v, w);
 						}
 					}
 				}

@@ -23,15 +23,12 @@ namespace SomewhereIBelong
 
             DisjointSetForest dsf = new DisjointSetForest(graph.vertciesCount());
 
-            MinPQueue<GraphEdge> pq = new MinPQueue<GraphEdge>();
-            foreach (var edge in graph.edges())
-            {
-                pq.insert(edge);
-            }
+            GraphEdge[] edges = graph.edges();
+            HeapSort<GraphEdge>.sort(ref edges);
 
-            while(!pq.isEmpty())
+            for (int i = 0; i < edges.Length; i++)
             {
-                GraphEdge edge = pq.extractMin();
+                GraphEdge edge = edges[i];
                 int v = edge.either(), w = edge.other(v);
                 if (!dsf.connected(v, w))
                 {
@@ -39,7 +36,7 @@ namespace SomewhereIBelong
                     dsf.union(v, w);
                     weight += edge.weight;
                 }
-                
+
             }
             
         }

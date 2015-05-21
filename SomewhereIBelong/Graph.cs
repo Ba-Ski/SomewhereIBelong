@@ -73,16 +73,18 @@ namespace SomewhereIBelong
             return _adj[v];
         }
 
-        public IEnumerable<GraphEdge> edges()
+        public GraphEdge[] edges()
         {
-
+            List<GraphEdge> edges = new List<GraphEdge>();
             for (int i = 0; i < _adj.Length; i++)
             {
                 foreach (var edge in _adj[i])
                 {
-                    if (edge.other(i) > i) yield return edge;
+                    if (edge.other(i) > i) edges.Add(edge);
                 }
             }
+
+            return edges.ToArray();
 
         }
 

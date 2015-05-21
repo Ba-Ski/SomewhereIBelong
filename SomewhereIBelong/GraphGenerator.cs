@@ -19,7 +19,7 @@ namespace SomewhereIBelong
             for (int i = 1; i < verticesCount; i++)
             {
                 firstVertexsId = i;
-                secondVertexsId = rand.Next(0, i - 1);
+                secondVertexsId = rand.Next(0, i);
 
                 GraphEdge edge = new GraphEdge(firstVertexsId, secondVertexsId,
                     rand.Next(weightMin, weightMax + 1));
@@ -36,8 +36,7 @@ namespace SomewhereIBelong
                 secondVertexsId = rand.Next(0, verticesCount);
 
                 while (firstVertexsId == secondVertexsId ||
-                    vertciesMap[firstVertexsId, secondVertexsId] == true ||
-                    vertciesMap[secondVertexsId, firstVertexsId] == true)
+                    vertciesMap[firstVertexsId, secondVertexsId] == true)
                 {
                     firstVertexsId = rand.Next(0, verticesCount);
                     secondVertexsId = rand.Next(0, verticesCount);
